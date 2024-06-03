@@ -10,7 +10,7 @@ namespace FlickrDesktopApp
     {
         public string PhotoSearchString { get; set; }
         public string ExceptionMessage { get; set; }
-        private string AccessKey = "T7oOFF-VuXqwWVRD06TULiWXUHpDqthhdNgAJLDNDMM";
+        private string AccessKey = "Access Key Generated";
         private int PhotosPerPage = 12;
         private int page = 1;
         public ObservableCollection<ImageModel> Images { get; set; }
